@@ -7,17 +7,9 @@ from constants import BASE_RESUME_PATH
 
 app = FastAPI()
 
-# Define the allowed origins
-origins = [
-    "chrome-extension://cflffgdapomeanpinekfbogljaimjcmg",
-    "http://localhost",
-    "http://localhost:8000"
-]
-
-# Add CORS middleware to the app
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
