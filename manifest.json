@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Spray & Prey",
+    "version": "1.0",
+    "action": {
+        "default_popup": "frontend/popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
