@@ -15,6 +15,7 @@ Chrome extension that personalizes your resume for each job application using LL
 ## Starting local server
 1. Go to the `backend` directory
 2. Run `uvicorn main:app --reload` to start the server
+3. Use chrome extension as intended
 
 
 
